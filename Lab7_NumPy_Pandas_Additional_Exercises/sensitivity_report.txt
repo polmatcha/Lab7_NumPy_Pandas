@@ -1,0 +1,17 @@
+STATISTICAL ROBUSTNESS AND SENSITIVITY ANALYSIS
+Student: Pacudan
+Student ID: TUPM-26-1859
+Random Seed: 261859
+Selected Features: Feature_152, Feature_386, Feature_467, Feature_472, Feature_568
+Bootstrap Repetitions: 290
+Largest Change in Mean Difference: Feature_568 (0.0452)
+Features with Changed Difference Sign: None
+Features with Changed Ranking: None
+Features with Changed CI Zero-Inclusion: None
+Reproducibility Verified: True
+
+Interpretation Notes:
+- Available-case analysis uses only observed values, while median imputation fills gaps with the full-dataset median.
+- A confidence interval that includes zero means the Fail-Pass difference is not clearly separated from zero.
+- Rankings use raw mean differences, so features with larger measurement scales can rank higher.
+- Consistent results across both strategies make a finding more reliable, but they do not show failure cause.
